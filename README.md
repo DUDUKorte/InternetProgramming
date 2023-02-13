@@ -4,8 +4,8 @@
 Olá, seja bem vindo ao github do esquilo png, eu sou o esquilo.
 E nesse repositório eu vou apenas usar para colcoar meus primeiros projetos na disciplina de programação para a internet na minha escola atual IFPR
 - Sites de material de Apoio:
-	> >[Link do material de apoio](https://developer.mozilla.org/pt-BR/)
-	> >[Link para fazer o README bonitinho](https://stackedit.io/)
+	>[Link do material de apoio](https://developer.mozilla.org/pt-BR/)
+	>[Link para fazer o README bonitinho](https://stackedit.io/)
 
 
 ![Me](https://avatars.githubusercontent.com/u/40546705?v=4)
