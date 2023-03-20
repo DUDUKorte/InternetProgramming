@@ -122,7 +122,7 @@ header nav ul li{
 
 .pacotes .card{
     width: 250px;
-    height: 200px;
+    height: 350px;
     background: white;
     border-radius: 24px 0;
     margin: 25px;
@@ -134,6 +134,11 @@ header nav ul li{
     height: 200px;
     border-radius: 24px 0 0 0;
     object-fit: cover;
+    transition: all 1s;
+}
+
+.pacotes .card-image:hover{
+    transform: scale(1.1);
 }
 
 .pacotes .card-content {
@@ -155,8 +160,89 @@ header nav ul li{
     font-weight: bold;
 }
 
-.pacotes .card-content ul li svg{
+.pacotes .card-content li svg{
     width: 16px;
     height: 16px;
     margin-right: 10px;
+}
+
+.pacotes .card-content h1{
+    font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d61dd;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+}
+
+.servicos .servicos-title{
+    text-align: center;
+    margin: 35px 0;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4)
+}
+
+.servicos .servicos-cards{
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.servicos .card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg{
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover{
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.servicos .card h3{
+    font-weight: bold;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.servicos .card p{
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
 }
