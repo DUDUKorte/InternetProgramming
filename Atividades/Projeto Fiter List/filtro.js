@@ -28,7 +28,6 @@ function filllist(list = nameList){
             listItens.className = "alert alert-info"
         }
         listItens.innerHTML = list[i];
-        console.log(listItens)
         listE1.appendChild(listItens);
     }
 }
@@ -63,7 +62,13 @@ function selectList(){
 }
 
 function removeFromList(){
-    console.log(selector)
-    nameList.splice(selector, 1);
-    filllist();
+    if(selector > (nameList.length - 2)){
+        nameList.splice(selector, 1);
+        selector -= 1;
+        filllist();
+    }else{
+        nameList.splice(selector, 1);
+        filllist();
+    }
+    
 }
